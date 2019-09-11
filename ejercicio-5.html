@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 5</title>
+    <style>
+        .container{
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            padding: 5px;
+            align-items: center;
+        }
+
+        .item{
+            padding:5px;
+        }
+
+        .cuadrado{
+            box-sizing: border-box;
+            flex-grow: 1;
+            height: auto;
+            align-items: center;
+            align-self: baseline;
+        }
+
+        .rectangular{
+            box-sizing: border-box;
+            flex-grow:1;
+            height: auto;
+        }
+
+        .largo{
+            box-sizing: border-box;
+            max-width: 100%;
+            flex-grow: 2;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+        <img src="img/square1.jpg" width="300px" class=" item cuadrado" alt="">
+        <img src="img/square2.jpg" width="300px" class=" item cuadrado"alt="">
+        <img src="img/square3.jpg" width="300px" class=" item cuadrado" alt="">
+        <img src="img/square4.jpg" width="300px" class=" item cuadrado" alt="">
+        <img src="img/mid.jpg"  class=" item largo" alt="">
+        <img src="img/square5.jpg" width="300px" class=" item cuadrado" height="300px" alt="">
+        <img src="img/long.jpg" width="300px;" class=" item rectangular" alt="">
+        <img src="img/square5.jpg" width="300px" class=" item cuadrado" height="300px;" alt="">
+        <img src="img/long.jpg" width="300px" class=" item rectangular"alt="">
+    </div>
+
+    <!---
+    <div class="container">
+        <img src="img/square1.jpg" class="cuadrado" alt="">
+        <img src="img/square2.jpg" class="cuadrado" alt="">
+        <img src="img/square3.jpg" class="cuadrado" alt="">
+        <img src="img/square4.jpg" class="cuadrado" alt="">
+        <img src="img/mid.jpg" class="largo" alt="">
+        <img src="img/square5.jpg" class="rectangular" alt="">
+        <img src="img/long.jpg" class="cuadrado" alt="">
+        <img src="img/square5.jpg" class="rectangular" alt="">
+        <img src="img/long.jpg" class="cuadrado" alt="">
+    </div>-->
+
+</body>
+</html>
